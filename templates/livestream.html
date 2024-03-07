@@ -1,0 +1,28 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Livestream</title>
+</head>
+<body>
+<h1>Livestream</h1>
+<video width="320" height="240" controls>
+<source src="video.mp4" type="video/mp4">
+</video>
+<div id="chat">
+<h3>Chat</h3>
+<ul>
+<li>Message 1</li>
+<li>Message 2</li>
+<li>Message 3</li>
+</ul>
+<form action="/send_message" method="POST">
+<input type="text" name="message">
+<input type="submit" value="Send">
+</form>
+</div>
+</body>
+</html>
+
+
